@@ -28,6 +28,28 @@ body {
     font-style: normal;
 }
 
+/* ----- COMMON FOR SECTIONS ----- */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+}
+
 /* ----- HEADER ----- */
 
 .logo {
@@ -114,16 +136,7 @@ body {
 
 /* ----- WHAT WE DO, OUR TEAM ----- */
 
-.what-we-do-title, .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-font-color);
-}
-
-.team {
+.team-section {
     background-color: var(--background-color-additional);
 }
 
